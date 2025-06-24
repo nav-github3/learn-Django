@@ -1,5 +1,5 @@
 """
-WSGI config for chaiaurDjango project.
+WSGI config for chaiaurdjango project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chaiaurDjango.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chaiaurdjango.settings')
 
 application = get_wsgi_application()
