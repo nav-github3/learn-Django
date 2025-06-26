@@ -8,3 +8,7 @@ def about(request):
 
 def contact(request): 
 	return HttpResponse("This is the contact page of the djapgo"); 
+
+def service_termical(request){
+	return HttpResponse("This is the service termical page of the djapgo");
+}
