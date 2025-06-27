@@ -9,6 +9,11 @@ def about(request):
 def contact(request): 
 	return HttpResponse("This is the contact page of the djapgo"); 
 
-def service_termical(request){
+def service_termical(request) : 
 	return HttpResponse("This is the service termical page of the djapgo");
-}
+
+
+
+def about78(request):
+	return HttpResponse("This is the about page of the djaongo"); 
+
