@@ -1,0 +1,1 @@
+https://www.notion.so/Django-21ba13414f008000b739cdd40c3af8a7?source=copy_link
