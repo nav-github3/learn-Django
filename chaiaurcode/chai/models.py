@@ -16,6 +16,5 @@ class chaiVarieties(models.Model):
     type = models.CharField(max_length=2, choices=CHAI_TYPE_CHOICE)
     
     
-    
-   # def __str__(self):
-    #    return self.name
+def __str__(self):
+    return self.name

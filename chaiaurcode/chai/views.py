@@ -1,6 +1,8 @@
 from django.shortcuts import render
+from .models import chaiVarieties
 
 # Create your views here.
 def allChai(request):
-	return render(request, 'chai/all_chai.html')
+	chais = chaiVarieties.objects.all()
+	return render(request, 'chai/all_chai.html', {'chais': chais})
 
